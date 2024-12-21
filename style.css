@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eb4848;
+    text-decoration: none;
+}
+
+.text-primary {
+    color: #dfa52a !important;
+}
+
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #2f2f2f;
+    padding: 10px 0;
+}
+
+.main-header .navbar-nav .nav-link {
+    color: #dfa52a !important;
+    letter-spacing: 1.5px;
+}
+
+.home-section {
+    height: 100vh;
+    background-image: url("imgs/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 15px;
+}
+
+.homie {
+    color: #dfa52a;
+}
+
+.home-text {
+    font-size: 1.8rem;
+}
+
+.ct-btn {
+    color: #dfa52a;
+    padding: 12px 30px;
+    font-size: 1.25rem;
+    border: 2px solid #dfa52a;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.ct-btn:hover {
+    color: white;
+    background-color: #dfa52a;
+    border-color: #dfa52a;
+}
+
+#about {
+    background-color: #2f2f2f;
+}
+
+#about img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+#skills {
+    background-color: #2f2f2f;
+}
+
+.circle-rounded {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: conic-gradient(#b9871a 0% 90%, #e0c07b 90% 100%);
+}
+
+.circle-rounded svg {
+    transform: rotate(-70deg);
+}
+
+.circle-rounded svg circle {
+    fill: none;
+    stroke-width: 10;
+}
+
+.circle-rounded svg .background {
+    stroke: #e6d9a1;
+}
+
+.circle-rounded svg .foreground {
+    stroke: #dfa52a;
+    stroke-dasharray: 339.292;
+    stroke-dashoffset: 339.292;
+}
+
+.circle-rounded .percentage {
+    position: absolute;
+
+}
+
+#projects {
+    background-color: #2f2f2f;
+}
+
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.card-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.btn-primary {
+    background-color: transparent;
+    border: 2px solid #dfa52a;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e0bc6c;
+}
+
+#contact {
+    background-color: #2f2f2f;
+}
+
+.contact-card {
+    color: #ffffff;
+}
+
+.contact-card a {
+    background-color: #dfa52a;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.contact-card a:hover {
+    background-color: #a87810;
+}
+
+.map-section {
+    background-color: #dfa52a;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-media a img.social-icon {
+    width: 35px;
+    height: 35px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.social-media a img.social-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #2f2f2f;
+}
